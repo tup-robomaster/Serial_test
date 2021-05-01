@@ -1,0 +1,1 @@
+/bin/x86_64-linux-gnu-g++-7   -std=c++11 -march=native -g  -rdynamic CMakeFiles/Serial.dir/main.cpp.o CMakeFiles/Serial.dir/CRC_Check.cpp.o CMakeFiles/Serial.dir/serialport.cpp.o  -o Serial 

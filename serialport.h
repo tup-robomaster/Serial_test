@@ -16,11 +16,7 @@
 #include <sys/ioctl.h>
 #include <iostream>
 #include "CRC_Check.h"
-//#include <opencv2/opencv.hpp>
-//#include <opencv2/core.hpp>
-//#include <opencv2/highgui.hpp>
-//#include <opencv2/imgproc.hpp>
-//using namespace cv;
+
 using namespace std;
 
 
@@ -67,6 +63,15 @@ typedef struct
     int nearFace;
 } VisionData;
 
+//地图识别地方机器人信息
+typedef struct
+{
+int16uchar data_length;
+int16uchar target_robot_ID;
+float2uchar target_position_x;
+float2uchar target_position_y;
+} Mapdata;
+
 
 class SerialPort
 {
@@ -83,7 +88,7 @@ public:
     SerialPort(char *);
     bool initSerialPort();
     bool get_Mode(int &mode, int &sentry_mode, int &base_mode);
-	void TransformData(const VisionData &data); //主要方案
+	void TransformData(const Mapdata &data); //主要方案
 	void send();
 	void closePort();
 	void TransformDataFirst(int Xpos, int Ypos, int dis);//方案1

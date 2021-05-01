@@ -1,0 +1,3 @@
+/home/dishierweidu/Desktop/Serial_test-main/build/CMakeFiles/rebuild_cache.dir
+/home/dishierweidu/Desktop/Serial_test-main/build/CMakeFiles/edit_cache.dir
+/home/dishierweidu/Desktop/Serial_test-main/build/CMakeFiles/Serial.dir

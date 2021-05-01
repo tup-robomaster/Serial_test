@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/dishierweidu/Desktop/Serial_test-main/build",
+  "command": "/bin/x86_64-linux-gnu-g++-7     -std=c++11 -march=native -g   -o CMakeFiles/Serial.dir/main.cpp.o -c /home/dishierweidu/Desktop/Serial_test-main/main.cpp",
+  "file": "/home/dishierweidu/Desktop/Serial_test-main/main.cpp"
+},
+{
+  "directory": "/home/dishierweidu/Desktop/Serial_test-main/build",
+  "command": "/bin/x86_64-linux-gnu-g++-7     -std=c++11 -march=native -g   -o CMakeFiles/Serial.dir/CRC_Check.cpp.o -c /home/dishierweidu/Desktop/Serial_test-main/CRC_Check.cpp",
+  "file": "/home/dishierweidu/Desktop/Serial_test-main/CRC_Check.cpp"
+},
+{
+  "directory": "/home/dishierweidu/Desktop/Serial_test-main/build",
+  "command": "/bin/x86_64-linux-gnu-g++-7     -std=c++11 -march=native -g   -o CMakeFiles/Serial.dir/serialport.cpp.o -c /home/dishierweidu/Desktop/Serial_test-main/serialport.cpp",
+  "file": "/home/dishierweidu/Desktop/Serial_test-main/serialport.cpp"
+}
+]

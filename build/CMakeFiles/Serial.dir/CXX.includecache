@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dishierweidu/Desktop/Serial_test-main/CRC_Check.h
+iostream
+-
+stdint.h
+-
+
+/home/dishierweidu/Desktop/Serial_test-main/serialport.cpp
+serialport.h
+/home/dishierweidu/Desktop/Serial_test-main/serialport.h
+
+/home/dishierweidu/Desktop/Serial_test-main/serialport.h
+sys/types.h
+-
+unistd.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+termios.h
+-
+stdio.h
+-
+stdlib.h
+-
+errno.h
+-
+sys/ioctl.h
+-
+iostream
+-
+CRC_Check.h
+/home/dishierweidu/Desktop/Serial_test-main/CRC_Check.h
+
